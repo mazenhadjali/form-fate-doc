@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/icon.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://form-fate-doc.vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -63,7 +63,7 @@ const config = {
         //   onInlineAuthors: 'warn',
         //   onUntruncatedBlogPosts: 'warn',
         // },
-        blog:false,
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -90,6 +90,11 @@ const config = {
             label: 'Tutorial',
           },
           {
+            href: 'https://form-fate-builder.vercel.app/',
+            position: 'left',
+            label: 'Builder',
+          },
+          {
             href: 'https://github.com/mazenhadjali/react-form-fate',
             label: 'GitHub',
             position: 'right',
@@ -100,8 +105,12 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Docs & Tools',
             items: [
+              {
+                label: 'Form Fate Builder',
+                href: 'https://form-fate-builder.vercel.app/',
+              },
               {
                 label: 'Tutorial',
                 to: '/docs/intro',
@@ -125,7 +134,7 @@ const config = {
             title: 'Contrubutors',
             items: [
               {
-                label: 'Hadjali Mazen',
+                label: 'Mazen Hadj Ali',
                 href: 'https://www.linkedin.com/in/hadjalimazen/',
               },
               {
