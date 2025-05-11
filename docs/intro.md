@@ -1,47 +1,74 @@
 ---
-sidebar_position: 1
----
+id: introduction
+title: Introduction
+sidebar_position: 0
+----------------------
 
-# Tutorial Intro
+# Getting Started with FormFate
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**FormFate** is a schema-based form generation library designed for React and React Native. It allows developers to define forms using a structured JSON schema, enabling powerful logic, validation, and component customization with minimal code.
 
-## Getting Started
+Whether you are building an enterprise-grade form system or a quick onboarding form, FormFate helps you reduce boilerplate and keep form logic declarative and reusable.
 
-Get started by **creating a new site**.
+## 🚀 Quick Installation
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
+### React (Web)
 
 ```bash
-npm init docusaurus@latest my-website classic
+npm install formfatecore react-form-fate
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### React Native
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+If you're targeting mobile platforms, use:
 
 ```bash
-cd my-website
-npm run start
+npm install formfatecore native-form-fate
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+> `formfatecore` provides the shared schema engine logic.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+## 🧱 What You'll Build
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+FormFate lets you define forms using structured blocks, such as:
+
+```ts
+const myForm = {
+  name: "example",
+  properties: {
+    userDetails: {
+      type: "block",
+      title: "User Details",
+      properties: {
+        firstName: {
+          type: "text",
+          title: "First Name",
+          required: true,
+        },
+        email: {
+          type: "email",
+          title: "Email Address",
+        }
+      }
+    }
+  },
+  buttons: [
+    { type: "submit", label: "Submit" }
+  ]
+}
+```
+
+Use `<FormFate />` for web or `<NativeFormFate />` for mobile.
+
+## ✨ Why FormFate?
+
+* Built-in validation & logic
+* Easy integration with custom components
+* Compatible with both React and React Native
+* Built for composability and reusability
+
+## 📱 React Native Support
+
+FormFate also powers **native-form-fate** — the fully native form generator for **React Native**. It provides the same schema-based flexibility adapted to native mobile interfaces.
+
+Explore the documentation to learn about field types, conditional logic, async selects, and more.
