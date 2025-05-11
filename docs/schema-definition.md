@@ -2,8 +2,8 @@
 
 id: schema-definition
 title: Defining a Form Schema
-sidebar_position: 2
------------------------------
+sidebar_position: 3
+---
 
 # Defining a Form Schema
 

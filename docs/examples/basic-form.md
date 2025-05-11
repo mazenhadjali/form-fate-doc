@@ -1,8 +1,7 @@
 ---
-
 id: basic-form
 title: Basic Form Example
--------------------------
+---
 
 # Basic Form Example
 

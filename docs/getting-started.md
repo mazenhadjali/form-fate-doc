@@ -2,8 +2,8 @@
 
 id: getting-started
 title: Getting Started
-sidebar_position: 1
-----------------------
+sidebar_position: 2
+---
 
 # Getting Started with FormFate
 

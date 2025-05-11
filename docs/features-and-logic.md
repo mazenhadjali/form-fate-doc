@@ -1,9 +1,8 @@
 ---
-
 id: features-and-logic
 title: Features & Logic
-sidebar_position: 4
------------------------
+sidebar_position: 5
+---
 
 # Features & Logic
 

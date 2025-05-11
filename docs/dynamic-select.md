@@ -2,8 +2,8 @@
 
 id: dynamic-select
 title: Dynamic Select (Async)
-sidebar_position: 5
------------------------------
+sidebar_position: 6
+---
 
 # Dynamic Select (Async)
 

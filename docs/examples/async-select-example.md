@@ -2,7 +2,7 @@
 
 id: async-select-example
 title: Async Select Example
----------------------------
+---
 
 # Async Select Example
 

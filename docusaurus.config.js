@@ -119,10 +119,6 @@ const config = {
                 label: 'LinkedIn',
                 href: 'https://www.linkedin.com/company/proxym',
               },
-              {
-                label: 'Contrubutors',
-                href: 'https://x.com/docusaurus',
-              },
             ],
           },
           {

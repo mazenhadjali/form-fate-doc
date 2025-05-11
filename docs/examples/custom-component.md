@@ -1,8 +1,7 @@
 ---
-
 id: custom-component
 title: Custom Component Example
--------------------------------
+---
 
 # Custom Component Example
 

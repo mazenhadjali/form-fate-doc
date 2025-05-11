@@ -1,8 +1,7 @@
 ---
-
 id: conditional-fields
 title: Conditional Fields Example
----------------------------------
+---
 
 # Conditional Fields Example
 
