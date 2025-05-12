@@ -58,7 +58,7 @@ const myForm = {
 }
 ```
 
-Use `<FormFate />` for web or `<NativeFormFate />` for mobile.
+Use `<FormFate />` Component.
 
 ## ✨ Why FormFate?
 

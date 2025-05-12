@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/mazenhadjali/react-form-fate',
+            'https://github.com/mazenhadjali/form-fate-doc/tree/main/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -87,12 +87,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           {
             href: 'https://form-fate-builder.vercel.app/',
             position: 'left',
-            label: 'Builder',
+            label: 'Builder Tool',
           },
           {
             href: 'https://github.com/mazenhadjali/react-form-fate',
