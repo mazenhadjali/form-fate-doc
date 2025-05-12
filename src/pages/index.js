@@ -48,10 +48,40 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Form Fate is a powerful and flexible form library for React. It provides a simple and intuitive API for building complex forms with ease based on JSON Schema.">
       <HomepageHeader />
       <main>
+        {/* Image powered by Proxym Group */}
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            marginTop: '20px',
+            marginBottom: '20px',
+            textAlign: 'center',
+          }}>
+          <img
+            src="/img/Logo-Proxym-2020-02.png"
+            alt="Proxym Group Logo"
+            style={{
+              maxWidth: '100%',
+              maxHeight: '50px',
+              marginBottom: '10px',
+            }}
+          />
+          {/* Acknowledgment for the internship program */}
+          <p
+            style={{
+              fontSize: '17px',
+              fontWeight: 'bold',
+              margin: '0 10px',
+              lineHeight: '1.5',
+            }}>
+            This project is part of the end-of-study internship program by <strong>Proxym Group</strong>.
+          </p>
+        </div>
         <HomepageFeatures />
       </main>
     </Layout>
