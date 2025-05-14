@@ -15,11 +15,10 @@ export interface CustomComponent {
   label: string;
   component: React.ElementType;
   type: string;
-  factory: () => { type: string; title: string };
 }
 
 export const customComponents: CustomComponent[] = [
-  { label: 'Search', type: 'search', component: SearchInputCard, factory: () => ({ type: 'search', title: 'Search' }) },
+  { type: 'search', component: SearchInputCard },
 ];
 
 export const components = customComponents.reduce(
